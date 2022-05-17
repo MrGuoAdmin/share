@@ -1,0 +1,30 @@
+// 项目全局样式，防止后期修改
+
+$theme_background: #E04141 ;	//项目主题色
+
+$global_font: 80rpx;	//全局字体大写
+
+$white_color: #ffffff ;	//全局白色字体
+
+$black_color: #333 ;	//全局黑色字体
+
+//底部按钮的背景
+@mixin bottom-button($bottom_height,$bottom_background) {	
+  width: 100%;
+  height: $bottom_height;
+  background-color: $bottom_background;
+  position: fixed;
+  bottom: 0;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+//字体(字体大小,字体颜色,文本字体,字体粗细)
+@mixin font_size($text_size,$text_color,$text_font,$text_weight) {
+  font-size: $text_size;
+  color: $text_color;
+  font-family: $text_font;
+  font-weight: $text_weight;
+}

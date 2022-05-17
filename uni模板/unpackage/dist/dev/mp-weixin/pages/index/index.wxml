@@ -1,0 +1,1 @@
+<view><navigation-bar><view slot="center">首页</view></navigation-bar><view class="main_bg"></view><view style="height:180rpx;"></view><view data-event-opts="{{[['tap',[['goadd',['$event']]]]]}}" class="buttom-botton" bindtap="__e"><view>sadas3256</view></view></view>
